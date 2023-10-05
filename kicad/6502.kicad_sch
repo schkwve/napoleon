@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid de3f9863-5e68-407b-898a-7e1f8eef2856)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 59.69 22.86) (size 38.1 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 161e65f2-7f58-41d5-8ee8-174bb7acebf1)
+    (property "Sheetname" "rst" (at 59.69 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "reset.kicad_sch" (at 59.69 52.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "6502"
+        (path "/de3f9863-5e68-407b-898a-7e1f8eef2856" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 20.32 22.86) (size 36.83 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ce9969f5-6e59-4e9d-bdcc-9c2d6463b745)
+    (property "Sheetname" "clk_gen" (at 20.32 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "clkgen.kicad_sch" (at 20.32 52.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "6502"
+        (path "/de3f9863-5e68-407b-898a-7e1f8eef2856" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 20.32 55.88) (size 36.83 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fbdce8e1-8347-4988-ad3a-9342d6516e34)
+    (property "Sheetname" "cpu" (at 20.32 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cpu.kicad_sch" (at 20.32 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "6502"
+        (path "/de3f9863-5e68-407b-898a-7e1f8eef2856" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
