@@ -11,7 +11,7 @@ A 6502-based personal computer.
 
 ## Project Structure
 
-└── kicad/		- Main Schemamatics and PCB design made in KiCad 7
+└─ `kicad` - Main Schemamatics and PCB design made in KiCad 7
 
 ## License
 
