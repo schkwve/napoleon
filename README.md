@@ -10,7 +10,7 @@ A 6502-based personal computer.
 - Custom ROM programmer
 
 ## Project Structure
-
+├─ `programs` - Sample firmware
 └─ `kicad` - Main Schemamatics and PCB design made in KiCad 7
 
 ## License
